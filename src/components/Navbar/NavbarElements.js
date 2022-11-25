@@ -17,7 +17,7 @@ export const NavLink = styled(Link)`
   text-decoration: none;
   padding: 0 1rem;
   height: 100%
-  cursor: pointer;
+  cursor : pointer;
 
   &.active {
     color: #15cdfc;
@@ -30,9 +30,9 @@ export const Bars = styled(FarBars)`
 
   @media screen and (max-width: 760px) {
     display: block;
-    postition: adsolute;
+    position: absolute;
     top: 0;
     right: 0;
-    transform: ;
+    transform: 0;
   }
 `;
